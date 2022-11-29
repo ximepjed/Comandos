@@ -15,25 +15,26 @@
 | `ip a` `ip addr` | muestra el IP de la maquina | al digitar este comando se presentan las direcciones de IP | 
 | whoami | muestra el usuario que se esta utilizando | se digita en la terminal y va a presentar el nombre el usuario que se esta usando |
 | `cd` nombre | cambia de directorio | `cd /home` va a ponerse en el directrorio de home |
-| `ls -l` | va a mostrar archivos ocultos | ls -l en la terminal para poder verificar los archivos ocultos de la maquina |
-| `cat` | muestra contenido de un archivo | cat prueba.txt muestra el texto que viene en el archivo prueba|
+| `ls -l` | va a mostrar archivos ocultos | `ls -l` en la terminal para poder verificar los archivos ocultos de la maquina |
+| `cat` | muestra contenido de un archivo | `cat prueba.txt` muestra el texto que viene en el archivo prueba|
 | `mkdir` nombre | crea carpetas nuevas | `mkdir xpj` crea una carpeta nueva con el nombre xpj |
+| `sudo su` | cambia a usuario root| `sudo su` va a permitir hacer acciones de super usuario|
+| `exit` | sale de usuario root |`exit` en la terminal va a hacer que vuelva a el usuario normal|
+| `tail` nombre | muestra parte final de un archivo | `tail prueba` muestra el final de ese archivo |
+| `head` nombre | muestra el inicio de un archivo | `head prueba` muestra el inicio de ese archivo |
+| `cp` nombre direccion | copiar un archivo | `cp prueba /home/` hace una copia del archivo que se encuentra en el directorio y lo pega en otra direccion |
+| `mv` | mueve archivos | mv prueba /home/ mueve ese archivo a la carpeta home |
+| `sudo adduser` | crea usuario nuevo | `sudo adduser xime` crea un usuario con el nombre xime |
+| `sudo passwd` usuario | cambia la contrasena de un usuario| `sudo passwd xime` va a cambiar la contrasena del usuario xime|
+| `history` | muestra el historial de los comando utilizados | `history` va mostrar una lista de los comandos utilizados en la maquina virtual|
+
+
 
 ///////////////////
 
 
-| `man` | manual | man apt nos muestra el manual  de un comando especifico |
-| `sudo su` | muestra usuario conectado | sudo su muestra root@ubuntu-ulacit/home/agregorya092# |
-| `whoami` | muestra usuarios | muestra root@ubuntu-ulacit/home/agregorya092 |
-| `exit` | cambia de usuarios | exit pasa del usuario root al usuario normal |
-| `more` | imprime contenido de archivos largos | more (nombre del archivo) muestra el contenido del archivo |
-| `tail` | muestra parte final de un archivo | tail prueba muestra el final de ese archivo |
-| `head`| muestra el inicio de un archivo | head prueba muestra el inicio de ese archivo |
-| `cp` | copiar archivoc | cp prueba crea otro archivo con el mismo contenido |
-| `mv` | mueve archivos | mv prueba1 Documents/ mueve ese archivo a la carpeta Documents |
-| `adduser` | crea usuario nuevo | sudo adduser goku crea un usuario nuevo con ese nombre |
-| `sudo passwd` | cambia la contrasena de un usuario| |
-| `history` | muestra el historial d elos comando utilizados | |
+
+
 | `history / grep (comando)` | muestra momentos donde el comando fue utilizado | |
 | `du -h foto.jpg` | muestra el tamano de un archvio | du wallpaper.jpg muestra el tamano de esa imagen |
 | `stat archivo.jpg` | muestra cuando fue la ultima vez que se modifico y acceso un archivo| |
