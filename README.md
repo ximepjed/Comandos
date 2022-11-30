@@ -32,26 +32,18 @@
 | `gnome-disk-utility` | muestra informacion sobre el disco | va a presentar la informacion del disco |
 | `docker images` | muestra todas las imagenes del docker  | |
 | `docker pull` nombre | saca el contenedor para la consola | `docker pull nextcloud` va a a sacar nextcloud |
-| `docker run` | corre una imagen |`docker run -it ubuntu` va a ejecutar el ubuntu|
-| `docker stop` | detiene el docker | |
+| `docker run` | corre una imagen |`docker run ubuntu` va a ejecutar el ubuntu|
+| `docker stop` nombre | detiene el contenedor | `docker stop ubuntu` va a detener el ubuntu|
 | `docker start` nombre | iniciar o detiene un contenedor | `docker start -a` va a iniciar a |
 | `docker ps -a` `docker container ls -a`| lista los contenedores | |
-///////////////////
-
-
-
-| `docker build` | crea una imagen del dockerfile | |
-
-| `docker ps` | lista todas las instacias que esta corriendo y detenidas | |
-
-| `docker rm` | elimina una instancia | |
-| `docker rmi` | elimina una imagen | |
-
-
-| `docker container rm CONTAINER` | elimina un contenedor con su nombre o id| |
-|`docker run -it ubuntu`| iniciar un contenedor en modo interactivo | |
-| ` docker sun -d ubuntu`| iniciar un contenedor en modo detached | |
-| ` docker container exec ls`| ejecuta un comando en un contenedor | |
-| ` docker run -d --name ubuntu-test ubuntu`| le asigna un nombre personalizado a un contenedor | |
-| `docker attach CONTAINER`| entra a la terminal de un contenedor en ejecucion | |
+| `docker container rm `nombre | elimina un contenedor | `docker container rm nextcloud` va a eliminar el contenedor nextcloud |
+| `docker attach` nombre| entra a la terminal de un contenedor en ejecucion |`docker attach ubuntu` entra a la terminal del contenedor ubuntu |
 | `docker container stop $ (docker container ls -q)`| detiene todos los contenedores | |
+| `docker rm` nombre | elimina una instancia |`docker rm 38329` va a eliminar esa instancia |
+| `docker rmi` nombre | elimina una imagen | `docker rmi nextcloud` va a elimianr la imagen con ese nombre |
+| `docker ps` | lista todas las instacias que esta corriendo y detenidas | |
+| `docker run -it` | corre una imagen de forma interactiva|`docker run -it ubuntu` va a ejecutar el ubuntu de forma interactiva|
+
+
+
+
