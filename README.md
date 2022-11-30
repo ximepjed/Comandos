@@ -1,4 +1,4 @@
-# Comandos
+# Comandos Ximena
 | Comando | Descripcion | Ejemplo |
 | ------- | ------------ | -------- |
 | `ls` | revisa documentos en el directorio | `ls` dentro en la terminal para ver los archivos del directorio en el que esta |
@@ -43,7 +43,7 @@
 | `docker rmi` nombre | elimina una imagen | `docker rmi nextcloud` va a elimianr la imagen con ese nombre |
 | `docker ps` | lista todas las instacias que esta corriendo y detenidas | |
 | `docker run -it` | corre una imagen de forma interactiva|`docker run -it ubuntu` va a ejecutar el ubuntu de forma interactiva|
-
-
+| `grep -r `"nombre" direccion | busca un archivo en una direccion especifica | `grep -r "mydomain.com" /etc/apache2/` va a realizar la busqueda |
+| `sudo reboot` | reinicia la maquina virtual | |
 
 
