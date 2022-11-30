@@ -27,24 +27,14 @@
 | `sudo adduser` | crea usuario nuevo | `sudo adduser xime` crea un usuario con el nombre xime |
 | `sudo passwd` usuario | cambia la contrasena de un usuario| `sudo passwd xime` va a cambiar la contrasena del usuario xime|
 | `history` | muestra el historial de los comando utilizados | `history` va mostrar una lista de los comandos utilizados en la maquina virtual|
-
-
+| `df - h` | muestra el espacio del disco duro | se va a presentar el espacio disponible del disco de la maquina virtual|
+| `sudo mount`tipo direccion| montaje de dispositivos en el sistema de archivos | `sudo mount /dec/sdb2/` va a montar este disco en el lugar indicado|
+| `gnome-disk-utility` | muestra informacion sobre el disco | va a presentar la informacion del disco |
 
 ///////////////////
 
 
 
-
-| `history / grep (comando)` | muestra momentos donde el comando fue utilizado | |
-| `du -h foto.jpg` | muestra el tamano de un archvio | du wallpaper.jpg muestra el tamano de esa imagen |
-| `stat archivo.jpg` | muestra cuando fue la ultima vez que se modifico y acceso un archivo| |
-| `file archivo.jpg` | muestra cual es el formato del archivo | |
-| `chown user1 archivo.jpg` | | |
-| `df - h` | muestra el espacio del disco duro | |
-| `mount` | montaje de dispositivos en el sistema de archivos | |
-| `Gparted` | administra particiones | |
-| `gnome-disk-utility` | muestra informacion sobre el disco | |
-| `sudo mkdir /mnt/ram_disk` | monta una unidad Ram Disk | |
 | `docker build` | crea una imagen del dockerfile | |
 | `docker images` | lista todas la siamgenes del docker host | |
 | `docker run` | corre una imagen | |
