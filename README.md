@@ -30,21 +30,24 @@
 | `df - h` | muestra el espacio del disco duro | se va a presentar el espacio disponible del disco de la maquina virtual|
 | `sudo mount`tipo direccion| montaje de dispositivos en el sistema de archivos | `sudo mount /dec/sdb2/` va a montar este disco en el lugar indicado|
 | `gnome-disk-utility` | muestra informacion sobre el disco | va a presentar la informacion del disco |
-
+| `docker images` | muestra todas las imagenes del docker  | |
+| `docker pull` nombre | saca el contenedor para la consola | `docker pull nextcloud` va a a sacar nextcloud |
+| `docker run` | corre una imagen |`docker run -it ubuntu` va a ejecutar el ubuntu|
+| `docker stop` | detiene el docker | |
+| `docker start` nombre | iniciar o detiene un contenedor | `docker start -a` va a iniciar a |
+| `docker ps -a` `docker container ls -a`| lista los contenedores | |
 ///////////////////
 
 
 
 | `docker build` | crea una imagen del dockerfile | |
-| `docker images` | lista todas la siamgenes del docker host | |
-| `docker run` | corre una imagen | |
+
 | `docker ps` | lista todas las instacias que esta corriendo y detenidas | |
-| `docker stop` | detiene todas las instancias que estan corriendo | |
+
 | `docker rm` | elimina una instancia | |
 | `docker rmi` | elimina una imagen | |
-| `docker container ls -a` | lista los contenedores | |
-| `docker ps -a` | lista los contenedores | |
-| `docker start -a` | iniciar y detener un contenedor | |
+
+
 | `docker container rm CONTAINER` | elimina un contenedor con su nombre o id| |
 |`docker run -it ubuntu`| iniciar un contenedor en modo interactivo | |
 | ` docker sun -d ubuntu`| iniciar un contenedor en modo detached | |
